@@ -8,5 +8,5 @@ module.exports = function(opts) {
   }
 
   opts.module_root = __dirname
-  bindings(opts)
+  return bindings(opts)
 }
