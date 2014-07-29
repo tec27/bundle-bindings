@@ -2,7 +2,7 @@ var bindings = require('bindings')
 
 module.exports = function(opts) {
   if (typeof opts == 'string') {
-    opts = { binding: opts }
+    opts = { bindings: opts }
   } else if (!opts) {
     opts = {}
   }

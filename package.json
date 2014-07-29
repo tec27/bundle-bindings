@@ -1,6 +1,6 @@
 {
   "name": "bundle-bindings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A `bindings` replacement for when JS files have been bundled together into a single file.",
   "main": "index.js",
   "scripts": {
