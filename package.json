@@ -1,0 +1,28 @@
+{
+  "name": "bundle-bindings",
+  "version": "0.1.0",
+  "description": "A `bindings` replacement for when JS files have been bundled together into a single file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests, sorry!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tec27/bundle-bindings"
+  },
+  "keywords": [
+    "bundle",
+    "bindings",
+    "browserify",
+    "native"
+  ],
+  "author": "Travis Collins <travis@tec27.com> (http://tec27.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tec27/bundle-bindings/issues"
+  },
+  "homepage": "https://github.com/tec27/bundle-bindings",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
