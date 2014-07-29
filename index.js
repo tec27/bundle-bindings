@@ -1,13 +1,12 @@
 var bindings = require('bindings')
 
-var modded = bindings
-for (var key in bindings) {
-  if (!bindings.hasOwnProperty(key)) continue
+module.exports = function(opts) {
+  if (typeof opts == 'string') {
+    opts = { binding: opts }
+  } else if (!opts) {
+    opts = {}
+  }
 
-  modded[key] = bindings[key]
+  opts.module_root = __dirname
+  bindings(opts)
 }
-modded.getFileName = function(callingFile) {
-  return __filename
-}
-
-module.exports = modded
